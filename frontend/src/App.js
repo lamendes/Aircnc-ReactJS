@@ -24,6 +24,8 @@ function App() {
               type="email" 
               id="email" 
               placeholder="Seu melhor e-mail" 
+              value={email}
+              onChange={event => setEmail(event.target.value)}
             />
             <button 
               className="btn" 
